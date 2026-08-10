@@ -21,9 +21,9 @@ Chaque création est préparée avec soin et passion pour faire plaisir à vos p
 - [Ajoutez d'autres technologies si nécessaire]
 
 ## 📱 Suivez-nous
-- Instagram : [@amir_bloom_dz]
-- Facebook : [Amir Bloom DZ]
-- WhatsApp : [Votre numéro]
+- Instagram : [@flo._.ret]
+- TikTok : [@flo._.ret]
+- Email : [amirbloomdz@gmail.com
 
 ## 🚀 Comment naviguer
 1. Téléchargez le projet
