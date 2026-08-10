@@ -1,210 +1,46 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amir Bloom DZ</title>
+<section id="products">
+  <h2>🌺 Nos Produits</h2>
+  <div class="product-grid">
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      background: #fff8fa;
-      color: #333;
-    }
-
-    header {
-      background: white;
-      padding: 22px;
-      text-align: center;
-      border-bottom: 1px solid #eee;
-    }
-
-    header h1 {
-      color: #b85c7a;
-      font-size: 30px;
-    }
-
-    header p {
-      color: #777;
-      margin-top: 8px;
-    }
-
-    .hero {
-      text-align: center;
-      padding: 80px 20px;
-      background: #fcecef;
-    }
-
-    .hero h2 {
-      color: #8f3f5d;
-      font-size: 35px;
-      margin-bottom: 18px;
-    }
-
-    .hero p {
-      max-width: 650px;
-      margin: auto;
-      line-height: 1.8;
-      color: #555;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 13px 28px;
-      background: #b85c7a;
-      color: white;
-      text-decoration: none;
-      border-radius: 25px;
-    }
-
-    section {
-      padding: 55px 20px;
-    }
-
-    .products {
-      text-align: center;
-    }
-
-    .products h2,
-    .about h2,
-    .contact h2 {
-      color: #8f3f5d;
-      margin-bottom: 30px;
-      font-size: 28px;
-    }
-
-    .cards {
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      flex-wrap: wrap;
-    }
-
-    .card {
-      background: white;
-      width: 280px;
-      padding: 30px 20px;
-      border-radius: 15px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    }
-
-    .card h3 {
-      color: #b85c7a;
-      margin-bottom: 15px;
-    }
-
-    .card p {
-      color: #666;
-      line-height: 1.7;
-    }
-
-    .about {
-      text-align: center;
-      background: white;
-    }
-
-    .about p {
-      max-width: 700px;
-      margin: auto;
-      line-height: 1.8;
-      color: #666;
-    }
-
-    .contact {
-      text-align: center;
-    }
-
-    .contact p {
-      color: #666;
-    }
-
-    footer {
-      background: #8f3f5d;
-      color: white;
-      text-align: center;
-      padding: 25px;
-    }
-  </style>
-</head>
-
-<body>
-
-  <header>
-    <h1>Amir Bloom DZ</h1>
-    <p>Cadeaux et fleurs artificielles</p>
-  </header>
-
-  <section class="hero">
-    <h2>Bienvenue chez Amir Bloom DZ</h2>
-
-    <p>
-      Votre boutique spécialisée dans les cadeaux et les fleurs artificielles.
-      Nous créons des compositions élégantes et originales pour toutes vos occasions.
-    </p>
-
-    <a href="#produits" class="button">Découvrir nos créations</a>
-  </section>
-
-  <section class="products" id="produits">
-    <h2>Nos créations</h2>
-
-    <div class="cards">
-
-      <div class="card">
-        <h3>Fleurs artificielles</h3>
-        <p>
-          De belles compositions florales réalisées avec soin
-          pour apporter une touche élégante à votre intérieur.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Cadeaux</h3>
-        <p>
-          Des idées de cadeaux originales pour faire plaisir
-          à vos proches lors de chaque occasion.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>Créations personnalisées</h3>
-        <p>
-          Des créations préparées avec passion selon vos envies
-          pour rendre chaque moment spécial.
-        </p>
-      </div>
-
+    <!-- المنتج 1: باقة ورد أحمر -->
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=300" alt="Bouquet de roses rouges">
+      <h3>🌹 باقة ورد أحمر</h3>
+      <p>باقة فاخرة من الورد الصناعي عالي الجودة، تدوم طويلاً</p>
+      <span class="price">2500 DA</span>
+      <br>
+      <button class="btn" onclick="ajouterAuPanier('باقة ورد أحمر', 2500)">🛒 أضف إلى السلة</button>
     </div>
-  </section>
 
-  <section class="about">
-    <h2>À propos de nous</h2>
+    <!-- المنتج 2: علبة شوكولاطة -->
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1549007953-2f2c0f240b0a?w=300" alt="Boîte de chocolats">
+      <h3>🍫 علبة شوكولاطة</h3>
+      <p>علبة شوكولاطة فاخرة، هدية مثالية لمن تحب</p>
+      <span class="price">1800 DA</span>
+      <br>
+      <button class="btn" onclick="ajouterAuPanier('علبة شوكولاطة', 1800)">🛒 أضف إلى السلة</button>
+    </div>
 
-    <p>
-      Chez Amir Bloom DZ, chaque création est préparée avec soin
-      et passion afin de vous offrir des cadeaux uniques et mémorables.
-      Des fleurs qui durent et des souvenirs qui restent.
-    </p>
-  </section>
+    <!-- المنتج 3: ساعة أنيقة -->
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=300" alt="Montre élégante">
+      <h3>⌚ ساعة أنيقة</h3>
+      <p>ساعة كلاسيكية فاخرة، تناسب جميع المناسبات</p>
+      <span class="price">3500 DA</span>
+      <br>
+      <button class="btn" onclick="ajouterAuPanier('ساعة أنيقة', 3500)">🛒 أضف إلى السلة</button>
+    </div>
 
-  <section class="contact">
-    <h2>Contact</h2>
+    <!-- المنتج 4: باقة ورد متنوع -->
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1470509037663-253afd7f0f0a?w=300" alt="Bouquet de fleurs variées">
+      <h3>🌸 باقة ورد متنوع</h3>
+      <p>تشكيلة من الزهور الصناعية بألوان مبهجة</p>
+      <span class="price">3000 DA</span>
+      <br>
+      <button class="btn" onclick="ajouterAuPanier('باقة ورد متنوع', 3000)">🛒 أضف إلى السلة</button>
+    </div>
 
-    <p>
-      Les informations de contact seront ajoutées prochainement.
-    </p>
-  </section>
-
-  <footer>
-    <p>© 2026 Amir Bloom DZ - Tous droits réservés</p>
-  </footer>
-
-</body>
-    </html>
+  </div>
+</section>
